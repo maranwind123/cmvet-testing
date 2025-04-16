@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #F1EFEC;
+}
+/* SCROLL */
+/* Estilizar la barra de desplazamiento completa */
+::-webkit-scrollbar {
+	width: 6px; /* Ancho vertical */
+	height: 6px; /* Alto horizontal */
+  }
+  
+  /* Estilizar el "pulgar" (la parte que arrastras) de la barra de desplazamiento */
+  ::-webkit-scrollbar-thumb {
+	background: #009900; /* Color del pulgar */
+  }
+  /* SCROLL */
+.navbar-character{
+	background-color: #009900;
+}
+.navbar-character .navbar-brand .img-logo{
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+}

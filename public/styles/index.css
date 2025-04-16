@@ -1,31 +1,3 @@
-*{
-	margin: 0;
-	padding: 0;
-}
-body{
-	background-color: #F1EFEC;
-}
-/* SCROLL */
-/* Estilizar la barra de desplazamiento completa */
-::-webkit-scrollbar {
-	width: 6px; /* Ancho vertical */
-	height: 6px; /* Alto horizontal */
-  }
-  
-  /* Estilizar el "pulgar" (la parte que arrastras) de la barra de desplazamiento */
-  ::-webkit-scrollbar-thumb {
-	background: #009900; /* Color del pulgar */
-  }
-  /* SCROLL */
-.navbar-character{
-	background-color: #009900;
-}
-.navbar-character .navbar-brand .img-logo{
-	border-radius: 100%;
-	width: 50px;
-	height: 50px;
-	margin: 5px;
-}
 /* CAROUSEL */
 .img-carousel{
 	height: 500px;
@@ -165,6 +137,12 @@ font-size: 18px;
 	font-size: 16px;
 }
 /* SERVICIOS */
+/* NOTICIAS */
+.img-noticias{
+	width: 200px;
+	height: 250px;
+}
+/* NOTICIAS */
 /* PIE DE PÁGINA */
 .before-foot{
 	width: 100%;
@@ -192,6 +170,26 @@ footer{
 	}
 
 }
+@media (max-width: 585px){
+	.about-us{
+		height: 500px;
+		flex-direction: column-reverse;
+	}
+	
+}
+@media (max-width: 560px){
+	.about-us .about-words{
+		width: 90%;
+		height: 70%;
+	}
+	.image-container {
+		width: 90%;
+	}
+	.services-content{
+		flex-direction: column;
+		height: 800px;
+	}
+}
 @media (max-width: 500px){
 	.img-carousel{
 		height: 300px;
@@ -217,5 +215,10 @@ footer{
 @media (max-width: 375px){
 	.content-info .more-info p{
 		font-size: 12px;
+	}
+}
+@media(max-width: 300px){
+	.content-info .more-info p{
+		font-size: 9px;
 	}
 }
